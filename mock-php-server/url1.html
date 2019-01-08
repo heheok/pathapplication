@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head style="padding:0;margin:0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body style="width:100vw;height:100vh;padding:0;margin:0">
+    <div
+      style="display:flex;height:100%;background:#000;align-items: center;justify-content: center"
+    >
+      <span
+        id="number"
+        style="color:#fff;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:20px"
+        >1</span
+      >
+    </div>
+    <script>
+      setTimeout(() => {
+        window.postMessage("sent message from URL1");
+      }, 1000);
+      document.addEventListener("message", receiveMessage);
+      function receiveMessage(event) {
+        document.getElementById("number").innerHTML = event.data;
+      }
+    </script>
+  </body>
+</html>

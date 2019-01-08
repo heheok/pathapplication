@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "harun",
+      "password": "password",
+      "token": "mocktoken",
+      "layoutId": 1
+    },
+    {
+      "id": 1,
+      "username": "murat",
+      "password": "password",
+      "token": "mocktoken",
+      "layoutId": 2
+    }
+  ],
+  "layouts": [
+    {
+      "id": 1,
+      "title": "Tab type 1",
+      "color": "#550000",
+      "activeColor": "#005500",
+      "tabs": [
+        {
+          "title": "Ana Sayfa",
+          "icon-family": "FontAwesome",
+          "icon": "heart",
+          "url": "http://localhost:8080/url1.html"
+        },
+        {
+          "title": "Hakkımızda",
+          "icon-family": "FontAwesome",
+          "icon": "github",
+          "url": "http://localhost:8080/url2.html"
+        },
+        {
+          "title": "Kariyer",
+          "icon-family": "FontAwesome",
+          "icon": "tag",
+          "url": "http://localhost:8080/url3.html"
+        },
+        {
+          "title": "İletişim",
+          "icon-family": "Zocial",
+          "icon": "android",
+          "url": "https://www.path.com.tr/"
+        },
+        {
+          "title": "Çıkış",
+          "icon-family": "Zocial",
+          "icon": "stripe",
+          "url": "http://localhost:8080/url5.html"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tab type 2",
+      "color": "#005500",
+      "activeColor": "#550000",
+      "tabs": [
+        {
+          "title": "Ana Sayfa",
+          "icon-family": "FontAwesome",
+          "icon": "heart",
+          "url": "http://localhost:8080/url1.html"
+        },
+        {
+          "title": "Çıkış",
+          "icon-family": "Zocial",
+          "icon": "stripe",
+          "url": "http://localhost:8080/url5.html"
+        }
+      ]
+    }
+  ]
+}
