@@ -6,3 +6,7 @@
 - yeni bir terminal ekranında, /mock-php-server klasörüne git, `php -S localhost:8080` komutunu çalıştır.
 - son olarak projenin kök klasöründen `yarn start-ios-with-mock` ya da `npm run start-ios-with-mock` komutunu çalıştır.
 
+- Login olmak için kullanıcı adları:
+  - harun
+  - murat
+- Şifre olarak herhangi birşey girebilirsiniz.
